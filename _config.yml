@@ -13,7 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://fengxie.xyz
+url: https://www.fengxie.xyz
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,6 +103,13 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repo: 'ssh://git@182.254.225.214:/home/git/hexo.git'
   branch: master
+- type: baidu_url_submitter
+
+baidu_url_submit:
+  count: 100
+  host: www.fengxie.xyz
+  token: 5pmrHn8vwI8bKYdM
+  path: baidu_urls.txt
