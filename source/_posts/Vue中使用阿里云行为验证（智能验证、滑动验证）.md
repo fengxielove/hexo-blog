@@ -3,8 +3,6 @@ title: Vue中使用阿里云行为验证（智能验证、滑动验证）
 excerpt: Vue中如何集成阿里云的智能验证与滑动验证呢？
 date: 2021-05-26 16:45:40
 tags: [vue.js]
-post_sticky: 20
-index_img: https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=3801290889,2146013012&fm=218&app=92&f=PNG?w=121&h=75&s=27D04A6CCE447776403E46440200C0DE
 ---
 
 ## 首先在阿里云控制台中新增配置

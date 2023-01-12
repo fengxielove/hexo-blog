@@ -3,10 +3,7 @@ title: CSS 面试题
 excerpt: CSS常见面试题总结（持续更新中)
 date: 2021-02-01 16:43:41
 tags: [css , 面试]
-categories:
-- 面试
-post_sticky: 10
-index_img: https://rmt.dogedoge.com/fetch/fluid/storage/fluid-write/cover.jpg?w=480&fmt=webp
+categories: [面试]
 ---
 # CSS3 面试题
 

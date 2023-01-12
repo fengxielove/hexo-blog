@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: fengxie's blog
+title: fx blog
 subtitle: 'Go confidently in the direction of your dreams. Live the life you have imagined'
 description: '大前端下的小白成长之路'
 keywords: 前端学习
@@ -98,18 +98,22 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid
+#theme: fluid
+theme: keep
+
+
+all_minifier: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-- type: git
-  repo: 'ssh://git@182.254.225.214:/home/git/hexo.git'
-  branch: master
-- type: baidu_url_submitter
+#deploy:
+#- type: git
+#  repo: 'ssh://git@182.254.225.214:/home/git/hexo.git'
+#  branch: master
+#- type: baidu_url_submitter
 
-baidu_url_submit:
-  count: 100
-  host: www.fengxie.xyz
-  token: 5pmrHn8vwI8bKYdM
-  path: baidu_urls.txt
+deploy:
+  - type: git
+    repo: 'ssh://git@1.117.144.51:/home/git/hexo.git'
+    branch: master
+    url: http://www.fengxie.xyz
