@@ -3,7 +3,7 @@ title: ES6学习记录
 excerpt: 阮一峰ES6标准入门
 tags: [git]
 categories: [es6]
-sticky: 100
+# sticky: 100
 ---
 
 ## Class的基本语法

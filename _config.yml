@@ -110,10 +110,17 @@ all_minifier: false
 #- type: git
 #  repo: 'ssh://git@182.254.225.214:/home/git/hexo.git'
 #  branch: master
-#- type: baidu_url_submitter
+
 
 deploy:
   - type: git
     repo: 'ssh://git@1.117.144.51:/home/git/hexo.git'
     branch: master
     url: http://www.fengxie.xyz
+  - type: baidu_url_submitter
+
+baidu_url_submit:
+  count: 100
+  host: www.fengxie.xyz
+  token: 5pmrHn8vwI8bKYdM
+  path: baidu_urls.txt

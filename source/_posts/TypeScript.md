@@ -1,7 +1,7 @@
 ---
 title: TypeScript学习记录
 tags: [ts]
-sticky: 100
+# sticky: 100
 ---
 
 ## 联合类型
