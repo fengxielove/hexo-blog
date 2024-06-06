@@ -10,7 +10,7 @@
     "upload": "hexo clean && hexo generate && hexo deploy"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "5.4.2"
   },
   "dependencies": {
     "hexo": "^5.0.0",
@@ -27,7 +27,7 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
     "hexo-theme-fluid": "^1.8.10",
-    "hexo-theme-keep": "^3.4.5",
+    "hexo-theme-keep": "^3.7.0",
     "hexo-theme-landscape": "^0.0.3",
     "hexo-wordcount": "^6.0.1"
   }

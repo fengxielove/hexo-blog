@@ -8,6 +8,10 @@ base_info:
   # Logo image (You can use local image, image external link or don’t fill)
   logo_img:
 
+inject:
+  enable: true
+  css:
+    - /css/custom.css
 # ---------------------------------------------------------------------------------------
 # Theme style settings
 # ---------------------------------------------------------------------------------------
@@ -217,7 +221,7 @@ pjax:
 # Footer settings
 # ---------------------------------------------------------------------------------------
 footer:
-  since: 2021 # the starting year of your website, Can be null
+  since: 2020 # the starting year of your website, Can be null
   icp: # ICP record number of your website, Can be null
   upyun: # url
 
